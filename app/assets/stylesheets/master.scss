@@ -1,3 +1,10 @@
-
-// Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+.my_headline_font_size {
+  font-size: 24px;
+}
+
