@@ -1,12 +1,29 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
 
 header {
-  border-top: 9px solid #222222;
+	border-top: 9px solid #222222;
+}
+
+h1 {
+	font-family: 'DM Serif Display', serif;
+	font-weight: bold;
+	letter-spacing: -1.5px;
+	font-size: 48px;
+}
+
+h2 {
+  	font-family: 'nobilemedium_italic', sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px;
 }
 
 .clear {
 	clear: both;
 }
+
 
 .circle {
 	font-weight: bold;
@@ -36,15 +53,18 @@ header {
 
 .links {
   	padding-top: 26px;
+  	padding-left: 26px;
 }
 
 .links a {
   	color: black;
   	font-size: 25px;
   	border-bottom: 1px solid #dfdfdf;
+  	font-family: 'nobilemedium_italic', sans-serif;
+  	font-weight: bold;
 }
 
 hr {
-  clear:both;
+	clear:both;
 }
 
